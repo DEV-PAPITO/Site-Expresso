@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.interface{
+    gap: 40px;
+    height: 80px;
+    background-color: #ffffffd5;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 2px solid #223066;
+}
+
+.interface .logo-expresso{
+    width: 200px;
+}
+
+.interface .menu ul{
+    font-size: 15px;
+    border: none;
+    display: flex;
+    gap: 40px;
+    font-weight: bolder;
+}
+
+.interface .menu ul li a{
+    color: #000;
+    padding: 30px 30px;
+    text-decoration: none;
+    transition: .2s;
+    display: block;
+    
+}
+
+.interface .menu a:hover{
+    color: #223066;
+    transform: scale(1.08);
+}
+
+.btn-suporte{
+    font-size: 35px;
+    border: none;
+    padding: 0 7px;
+    border-radius: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-suporte:hover{
+    transition: 1.2s;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #223066;
+}
+
+.txt-manutencao{
+    padding: 80px 4%;
+}
+
+
+
+.txt-topo-site{
+    padding: 80px 4%;
+}
+
+.txt-topo-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.meio-do-site h1{
+    color: #223066;
+    font-size: 38px;
+    line-height: 37px;
+}
+
+.meio-do-site h1 span{
+    color: #3D87B8;
+}
+
+.meio-do-site p{
+    margin: 40px 0;
+}
+
+.txt-manutencao .meio-manutencao h1{
+    color: #fffc4d;
+    font-size: 38px;
+    line-height: 37px;
+}
+
+.txt-horas .meio-menu h1{
+    color: #fffc4d;
+    font-size: 38px;
+    line-height: 37px;
+}
+
+.meio-manutencao h1 span{
+    color: #3D87B8;
+}
+
+.meio-manutencao p{
+    margin: 40px 0;
+}
+
+.meio-menu p{
+    margin: 20px 0;
+}
+
+.btn-mais button{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-mais button:hover{
+    background-color: #223066;
+    box-shadow: 0px 0px 8px #223066;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.btn-manutencao button{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.btn-manutencao button:hover{
+    background-color: #223066;
+    box-shadow: 0px 0px 8px #223066;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.txt-horas{
+    padding: 80px 4%;
+}
+
+.txt-horas h1{
+    font-size: 30px;
+    line-height: 1px;
+}
+
+@keyframes flutuar{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 30px;
+    }
+}
+
+.img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.cabecalho-info h2{
+    margin-top: 60px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+.info-colab{
+    padding: 10px 4%;
+}
+
+.info-colab .flex{
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.info-colab .icon-box{
+    padding: 30px;
+    border: 2px solid #ffffff;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 1.2s;
+}
+
+.info-colab .icon-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff;
+}
+
+
+.info-colab .icon-box i{
+    font-size: 70px;
+    color: #223066;
+}
+
+.info-colab .icon-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.colab .titulo{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.funcionario-mes{
+    padding: 80px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coroax{
+    height:220px;
+}
+
+.img-port{
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: #223066;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: 1.2s;
+}
+
+.colab h2 span{
+    color: #223066;
+}
+
+.img-port:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 20px #ffffffa4;
+}
+
+footer .interface{
+    margin-top: 80px;
+}
+
+.interface .logo-footer{
+    width: 100px;
+    border-bottom: 0px;
+}
+
+.interface .btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background-color: #223066;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 1.2;
+}
+
+.interface .btn-social button:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 20px #2230667c;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    background-color: #ffffff;
+    position: fixed;
+    height: 500vh;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    transition: .5s;
+}
+
+.mobile-menu.open{
+    width: 70%;
+}
+
+.mobile-menu.open ~ .overlay-mobile{
+    display: block;
+}
+
+
+.mobile-menu .nav-item{
+    text-align: center;
+    padding: 40px 4%;
+}
+
+.mobile-menu .nav-item:hover{
+    background-color: #223066;
+    transition: .5s;
+}
+
+.mobile-menu nav ul li a{
+    font-size: 40px;
+}
+
+.overlay-mobile{
+    background-color: #000000a7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+.drop-hover, .drop-hover2{
+    position: relative;
+}
+
+.drop-hover .drop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d4d4d4;
+    z-index: 1;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    
+}
+
+.drop-hover .drop a{
+    padding: 20px;
+}
+
+.drop-hover.drop-hover:hover .drop{
+    height:415px;
+}

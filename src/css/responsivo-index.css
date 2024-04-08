@@ -1,0 +1,62 @@
+@media (max-width: 1024px) {
+    .meio-do-site h1 {
+        font-size: 29px;
+    }
+
+    .info-colab {
+        padding: 10px 5%;
+    }
+
+    .menu, .btn-suporte {
+        display: none;
+
+    }
+    .img-geral {
+        display: none;
+
+    }
+
+    .img-manu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meio-do-site h1 {
+        font-size: 30px;
+    }
+
+    .img-topo-site {
+        display: none;
+    }
+
+    .cabecalho-info h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon button {
+        background-color: transparent;
+        border: none;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    .flex {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 376px){
+    .interface{
+        padding: 0 50px;
+    }
+}

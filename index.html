@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresso do Ocidente</title>
+    <link rel="shortcut icon" href="src/imagens/logo_1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/estilo-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="src/css/responsivo-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="interface">
+        <div>
+            <a href="index.html"><img class="logo-expresso" src="src/imagens/logo_2.png" alt="logo expresso"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="informacoes.html">MOTORISTA</a></li>
+                <li><a href="informacoes.html">ADMINISTRATIVO</a></li>
+                <li><a href="">TREINAMENTO</a></li>
+                <li class="drop-hover"><a href="#">CONTATOS <i class="bi bi-caret-down-fill"></i></a>
+                    <div class="drop">
+                        <a href="https://wa.me/91981352477" target="_blank">PATRICIA</a>
+                        <a href="https://wa.me/91984685027" target="_blank">GIULIA</a>
+                        <a href="https://wa.me/91985802777" target="_blank">JUNIOR</a>
+                        <a href="https://wa.me/91982736850" target="_blank">CAMILLE</a>
+                        <a href="https://wa.me/91981311842" target="_blank">WENDELL</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="btn-suporte">
+            <a href="https://wa.me/91981311842" target="_blank">
+                <i class="bi bi-headset"></i>
+            </a>
+        </div>
+        <div class="menu-icon" id="btn-menu">
+            <button onclick="menuShow()"><i class="bi bi-list"></i></button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="informacoes.html">MOTORISTA</a></li>
+                    <li class="nav-item"><a href="informacoes.html">ADMINISTRATIVO</a></li>
+                    <li class="nav-item"><a href="">TREINAMENTO</a></li>
+                    <li class="nav-item"><a href="#">CONTATOS <i class="bi bi-caret-down-fill"></i></a></li>
+                    <li class="nav-item"><a href="https://wa.me/91981311842" target="_blank">SUPORTE</a></li>
+                </ul>
+
+        </div>
+        <div class="overlay-mobile" id="overlay-mobile"></div>
+    </header>
+
+    <main class="txt-topo-site">
+        <div class="flex">
+            <div class="meio-do-site">
+                <h1>BEM-VINDO AO SITE<br><span>EXPRESSO DO OCIDENTE</span></h1>
+                <p>
+                    Aqui, você não apenas tira suas duvidas, mas também se torna um colaborador melhor na nossa empresa
+                    acolhedora e vibrante, pois acreditamos que cada
+                    colaborador enriquece nossa jornada coletiva. Sinta-se à vontade para explorar, compartilhar suas
+                    ideias e experiências, pois é através dessa troca que construímos laços sólidos e crescemos juntos.
+                    Mais
+                    uma vez, seja muito bem-vindo!
+                </p>
+                <div class="btn-mais">
+                    <a href="#infos"><button>SAIBA MAIS</button></a>
+                </div>
+            </div>
+            <div class="img-topo-site">
+                <img src="src/imagens/caminhao.png" alt="logo-carreta">
+            </div>
+        </div>
+    </main>
+
+    <section class="txt-manutencao">
+        <div class="flex">
+            <div class="meio-manutencao" >
+                <h1>SOLICITE SUA<br><span>MANUTENÇÃO</span></h1>
+                <p>
+                    Caso esteja precisando de Manutenção em seu setor porfavor click em "SOLICITAR" para estar podendo preencher um formulario, para você informar qual e seu problema e como podemos ajudar!
+                </p>
+                <div class="btn-manutencao">
+                    <a href="https://forms.gle/DxmhndZ8qqokYG2H7" target="_blank"><button>SOLICITAR</button></a>
+                </div>
+            </div>
+            <div class="img-manu">
+                <img src="src/imagens/Manutenção.png" alt="Manutenção-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="funcionario-mes">
+        <div class="colab">
+            <img class="coroax" src="src/imagens/coroa.png" alt="Coroa do Mes">
+            <h2 class="titulo" href="#mais">FUNCIONARIO DO MÊS <br><span>Wendell Richard</span></h2>
+            <div class="funcionario">
+                <div class="img-port" style="background-image: url(src/imagens/Wendell.jpg);"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-colab">
+        <div class="cabecalho-info">
+            <h2 class="titulo" id="infos">INFOMAÇOES DO <span>COLABORADOR</span></h2>
+            <div class="flex">
+                <div class="icon-box">
+                    <i class="bi bi-card-text"></i>
+                    <h3>Contracheque</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="bi bi-cash-coin"></i>
+                    <h3>Salario</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="bi bi-alarm"></i>
+                    <h3>Jornada</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="info-colab">
+        <div class="cabecalho-info">
+            <div class="flex">
+                <div class="icon-box">
+                    <i class="bi bi-card-text"></i>
+                    <h3>Contracheque</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="bi bi-cash-coin"></i>
+                    <h3>Salario</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+                <div class="icon-box">
+                    <i class="bi bi-alarm"></i>
+                    <h3>Jornada</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias placeat explicabo ipsam
+                        aperiam quos, sed distinctio nostrum labore ipsa eum cupiditate quod. Magni minus veniam maiores
+                        minima, laboriosam laudantium.</p>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div">
+                    <a href="index.html"><img class="logo-footer" src="src/imagens/logo_3.png" alt="logo expresso"></a>
+            </div>
+            <div class="btn-social">
+                <a href="https://br.linkedin.com/company/expresso-do-ocidente" target="_blank"><button><i
+                            class="bi-linkedin"></i></button></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

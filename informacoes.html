@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expresso do Ocidente</title>
+    <link rel="shortcut icon" href="src/imagens/logo_1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/estilo-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="src/css/responsivo-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+<body>
+    <header class="interface">
+        <div>
+            <a href="index.html"><img class="logo-expresso" src="src/imagens/logo_2.png" alt="logo expresso"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="informacoes.html">MOTORISTA</a></li>
+                <li><a href="informacoes.html">ADMINISTRATIVO</a></li>
+                <li><a href="informacoes.html">TREINAMENTO</a></li>
+                <li class="drop-hover"><a href="#">CONTATOS <i class="bi bi-caret-down-fill"></i></a>
+                    <div class="drop">
+                        <a href="https://wa.me/91981352477" target="_blank">PATRICIA</a>
+                        <a href="https://wa.me/91984685027" target="_blank">GIULIA</a>
+                        <a href="https://wa.me/91985802777" target="_blank">JUNIOR</a>
+                        <a href="https://wa.me/91982736850" target="_blank">CAMILLE</a>
+                        <a href="https://wa.me/91981311842" target="_blank">WENDELL</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="btn-suporte">
+            <a href="https://wa.me/91981311842" target="_blank">
+                <i class="bi bi-headset"></i>
+            </a>
+        </div>
+        <div class="menu-icon" id="btn-menu">
+            <button onclick="menuShow()"><i class="bi bi-list"></i></button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="informacoes.html">MOTORISTA</a></li>
+                    <li class="nav-item"><a href="informacoes.html">ADMINISTRATIVO</a></li>
+                    <li class="nav-item"><a href="informacoes.html">TREINAMENTO</a></li>
+                    <li class="nav-item"><a href="#">CONTATOS <i class="bi bi-caret-down-fill"></i></a></li>
+                    <li class="nav-item"><a href="https://wa.me/91981311842" target="_blank">SUPORTE</a></li>
+                </ul>
+
+        </div>
+        <div class="overlay-mobile" id="overlay-mobile"></div>
+    </header>
+
+    <section class="txt-horas">
+        <div class="flex">
+            <div class="meio-menu" id="Motorista">
+                <h1>Jornada do motorista:</h1>
+                <p>
+                    É o tempo de direção e o tempo à disposição, com exceção dos intervalos para refeição (intrajornada) e descanso (interjornada). 
+                    Com isso são 02 os pilares da jornada do motorista de caminhão: JORNADA + INTERVALOS. 
+                </p>
+
+                <h1>Jornada diária:</h1>
+                <p>8 horas de trabalho e 11 horas de descanso. </p>
+
+                <h1>Horas extras:</h1>
+                <p>A Lei continua a permitir que o motorista faça entre 2h até 4h extras por dia. </p>
+                
+                <h1 >Banco de Horas:</h1>
+                <p>As horas extras feitas vão ser compensadas no mesmo equivalente em folgas.<br>Portanto, 8h de jornada + eventuais 4h extras, vão totalizar 12h de Jornada no dia.<br>Essas horas vão ser divididas nas atividades rotineiras do motorista: Direção, carga e descarga, posto fiscal, tempo à disposição, etc. 
+                </p>
+
+                <h1>O que mudou?</h1>
+                <p>O intervalo INTERjornada deverá ser de 11 horas ininterruptas dentro das 24 horas diárias, ficando proibido o fracionamento.</p>
+                <p>Todo tempo que o motorista estiver à disposição, com exclusão do Interjornada, será contabilizado como Jornada. </p>
+                <p>Descanso SEMANAL remunerado + Interjornada no sétimo dia: O colaborador terá as 24h do seu DSR + 11 horas do Interjornada, de forma consecutivas, somando 35h de descanso. </p>
+                <p>Pela decisão do STF, o descanso do motorista só pode ocorrer com o veículo parado, o que significa dizer que não há mais necessidade de dois motoristas dentro do mesmo veículo. Vale destacar que o descanso pode ser feito dentro do veículo, mas com ele PARADO. </p>
+
+                <h1>O que permaneceu?</h1>
+                <p>O empregador é responsável pelo controle/gestão da jornada do motorista.</p>
+                <p>Salvo previsão contratual, a jornada de trabalho do motorista empregado não tem horário fixo de início, de final ou de intervalos.</p>
+                <p>As horas extras serão pagas com o adicional de 50% ou compensadas pela redução equivalente em outro dia (banco de horas).</p>
+                <p>Desde que não se comprometa a segurança rodoviária, a duração da jornada de trabalho poderá ser elevada pelo tempo necessário até o veículo chegar a um local seguro ou ao seu destino. </p>
+
+            </div>
+            <div class="img-geral">
+                <img src="src/imagens/relogio1.png" alt="Relogio-img">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
